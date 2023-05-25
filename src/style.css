@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+main ul {
+    flex-direction: column;
+    width: 100%;
+}
+
+main ul li {
+    list-style: none;
+}
+
+main ul li button {
+    width: 100%;
+    background-color: RGB(63 108 227);
+    height: 3em;
+}
+
+#menu {
+    background-color: RGB(63 108 227);
+    width: 200px;
+    height: 100vh;
+}
