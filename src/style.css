@@ -7,6 +7,11 @@
     display: flex;
 }
 
+#menu {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 main ul {
     flex-direction: column;
     width: 100%;
